@@ -1,0 +1,17 @@
+@@if(context.boxStyle){
+  <@@boxTag
+      class="typography-box@@if(context.boxClass){ @@boxClass}"
+      style="
+        --typography-box-margin-b: @@boxMarginB;
+        --typography-box-margin-b-mob: @@boxMarginBmob
+      "
+  >
+    @@boxText
+  </@@boxTag>
+}
+
+@@if(!context.boxStyle){
+  <@@boxTag class="typography-box@@if(context.boxClass){ @@boxClass}">
+    @@boxText
+  </@@boxTag>
+}

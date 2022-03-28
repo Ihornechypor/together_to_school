@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+  @@include("layout/layout-head.html", {
+    "title" : "Razemwszkole",
+    "description": "Razemwszkole",
+    "css" : "css/index.css?v=1.0.0"
+  })
+<body class="d-flex flex-column h-100">
+
+	<div data-page-wrapper class="page-wrapper">
+		@@include("layout/layout-header.html")
+
+		<main class="main-content">
+      @@include("sections/section-hero.html")
+      @@include("sections/section-all-table.html")
+    </main>
+
+
+  <script src="js/main.js?v=1.0.0"></script>
+  <script>
+    $(document).ready(function () {
+      $("#dtBasicExample").DataTable();
+    });
+  </script>
+
+</body>
+</html>

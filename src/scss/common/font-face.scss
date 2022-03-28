@@ -1,0 +1,24 @@
+/* Font face
+------------------------------------------------------------------------*/
+
+@mixin font-face($name, $path, $style) {
+  @font-face {
+    font-family: $name;
+    font-display: swap;
+    font-weight: $style;
+    src:  local(#{$name}), url('../fonts/#{$path}.woff2') format('woff2');
+  }
+}
+
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+@include font-face('Poppins', 'Poppins/Poppins-Regular', '400');
+@include font-face('Poppins', 'Poppins/Poppins-SemiBold', '600');
+@include font-face('Poppins', 'Poppins/Poppins-Medium', '500');
+
+
+

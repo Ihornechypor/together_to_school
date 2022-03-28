@@ -1,0 +1,33 @@
+$icomoon-font-family: "icomoon" !default;
+$icomoon-font-path: "../fonts/icomoon" !default;
+
+@mixin icon-css-mixin {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+$icon-vector-tubes-big: "\e905";
+$icon-vector-tubes-small: "\e906";
+$icon-vector-tube-rotated: "\e907";
+$icon-vector-tube-big: "\e908";
+$icon-vector-tubes: "\e903";
+$icon-vector-tube: "\e904";
+$icon-arrow-down: "\e901";
+$icon-arrow-right: "\e902";
+$icon-logo: "\e900";
+
+
+
+

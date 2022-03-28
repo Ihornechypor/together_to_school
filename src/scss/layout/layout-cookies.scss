@@ -1,0 +1,76 @@
+.layout-cookies {
+  display: none;
+  position: fixed;
+  background-color: $color-primary;
+  z-index: 9;
+  padding: 30px 20px;
+  left: 0;
+  bottom: 0;
+
+  p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.667;
+
+    @include breakpoint(large){
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 12px 0;
+    }
+  }
+
+  a {
+    color: $white;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .cookies-title {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 700;
+  }
+
+  .section-cookies-btn {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 300;
+    transform: rotate(45deg);
+    z-index: 1;
+
+  }
+
+  @keyframes cookies-out {
+    0% { transform: translateX(-50%) translateY(50%); }
+    10% { transform: translateX(-50%) translateY(35%); }
+    100% { transform: translateX(-50%) translateY(195%); }
+  }
+
+  @keyframes cookies-out-large {
+    0% { transform: translateX(0) translateY(0); }
+    10% { transform: translateX(0) translateY(-15%); }
+    100% { transform: translateX(0) translateY(115%); }
+  }
+
+  &.closed {
+    animation: cookies-out .5s cubic-bezier(0.50, 0.50, 0.05, 0.95);
+
+    @include breakpoint(large) {
+      animation: cookies-out-large .5s cubic-bezier(0.50, 0.50, 0.05, 0.95);
+    }
+  }
+}

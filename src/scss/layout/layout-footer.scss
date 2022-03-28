@@ -1,0 +1,7 @@
+.layout-footer {
+
+
+  @include breakpoint(large){
+    padding-top: 80px;
+  }
+}
