@@ -86,6 +86,7 @@ const jsTask = () => {
   return src([
     "node_modules/jquery/dist/jquery.js",
     "node_modules/datatables/media/js/jquery.dataTables.js",
+    "node_modules/bootstrap/dist/js/bootstrap.js",
     "src/js/main.js"
   ])
     .pipe(
@@ -187,7 +188,7 @@ const video = () => {
 };
 
 const criticalCSS = () => {
-  return src("dist/*.html")
+  return src("dist/**/*.html")
     .pipe(
       critical({
         base: "dist/",

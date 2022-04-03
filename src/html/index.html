@@ -2,26 +2,20 @@
 <html lang="pl">
   @@include("layout/layout-head.html", {
     "title" : "Razemwszkole",
-    "description": "Razemwszkole",
+    "description": "Strona skierowana jest zarówno do ukraińskich uczniów uczących się polskiego, a także ich nauczycieli, którzy chcą im pomóc. Znajdziesz tu słówka, które przydadzą Ci się podczas nauczania i uczenia się różnych przedmiotów szkolnych. ",
     "css" : "css/index.css?v=1.0.0"
   })
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column">
 
-	<div data-page-wrapper class="page-wrapper">
 		@@include("layout/layout-header.html")
 
 		<main class="main-content">
       @@include("sections/section-hero.html")
-      @@include("sections/section-all-table.html")
+      @@include("sections/section-nav.html")
     </main>
+    @@include("layout/layout-footer.html")
 
 
   <script src="js/main.js?v=1.0.0"></script>
-  <script>
-    $(document).ready(function () {
-      $("#dtBasicExample").DataTable();
-    });
-  </script>
-
 </body>
 </html>

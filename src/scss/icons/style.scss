@@ -14,49 +14,14 @@
 }
 
 
-.icon-vector-tubes-big {
+.icon-facebook {
   &:before {
-    content: $icon-vector-tubes-big;
+    content: $icon-facebook;
   }
 }
-.icon-vector-tubes-small {
+.icon-instagram {
   &:before {
-    content: $icon-vector-tubes-small;
-  }
-}
-.icon-vector-tube-rotated {
-  &:before {
-    content: $icon-vector-tube-rotated;
-  }
-}
-.icon-vector-tube-big {
-  &:before {
-    content: $icon-vector-tube-big;
-  }
-}
-.icon-vector-tubes {
-  &:before {
-    content: $icon-vector-tubes;
-  }
-}
-.icon-vector-tube {
-  &:before {
-    content: $icon-vector-tube;
-  }
-}
-.icon-arrow-down {
-  &:before {
-    content: $icon-arrow-down;
-  }
-}
-.icon-arrow-right {
-  &:before {
-    content: $icon-arrow-right;
-  }
-}
-.icon-logo {
-  &:before {
-    content: $icon-logo;
+    content: $icon-instagram;
   }
 }
 

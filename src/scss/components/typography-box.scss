@@ -1,8 +1,0 @@
-.typography-box {
-  @include breakpoint(medium down){
-   margin-bottom: var(--typography-box-margin-b-mob, 16px);
-  }
-  @include breakpoint(large){
-    margin-bottom: var(--typography-box-margin-b, 24px);
-  }
-}
