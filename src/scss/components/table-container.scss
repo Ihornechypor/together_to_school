@@ -1,0 +1,21 @@
+.table-container {
+  .dataTables_filter {
+    margin-bottom: 30px;
+  }
+  label {
+    display: flex;
+    flex-direction: column;
+
+    @include media-breakpoint-up(sm) {
+      align-items: center;
+      flex-direction: row;
+    }
+  }
+  input {
+    margin-top: 16px;
+    @include media-breakpoint-up(sm) {
+      margin-top: 0;
+      margin-left: 16px;
+    }
+  }
+}

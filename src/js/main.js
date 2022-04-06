@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-  $("#dtTable").DataTable({
+  $(".js-dtTable").DataTable({
     bPaginate: false,
     bLengthChange: false,
     bFilter: true,

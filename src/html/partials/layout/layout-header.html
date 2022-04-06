@@ -23,22 +23,60 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Słówka / Словник
                         </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            @@include("components/list-of-words-nav.html", {
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <p class="mb-0 dropdown-item">
+                                <b>
+                                    Słownictwo ogólne/Базова лексика
+                                </b>
+                            </p>
+                            <ul>
+                                @@include("components/list-of-words-nav.html", {
+                                    "list": [
+                                        {
+                                            "class": "",
+                                            "link": "polecenia.html",
+                                            "text": "Polecenia/Команди"
+                                        },
+                                        {
+                                            "class": "",
+                                            "link": "narzedzia.html",
+                                            "text": "Narzędzia/Інструменти"
+                                        },
+                                        {
+                                            "class": "",
+                                            "link": "pomieszczenia-w-szkole.html",
+                                            "text": "Pomieszczenia w szkole / Приміщення в школі"
+                                        },
+                                        {
+                                            "class": "",
+                                            "link": "polozenie-i-kierunki.html",
+                                            "text": "Położenie i kierunki / Розташування та напрямки"
+                                        },
+                                        {
+                                            "class": "",
+                                            "link": "inne-zwroty.html",
+                                            "text": "Inne zwroty / Інші фрази"
+                                        }
+                                    ]
+                                })
+                            </ul>
+                            <p class="mb-0 mt-2 dropdown-item">
+                                <b>
+                                    Matematyka/Математика
+                                </b>
+                            </p>
+                            <ul>
+                                @@include("components/list-of-words-nav.html", {
                                 "list": [
                                     {
-                                        "class": "dropdown-item",
-                                        "link": "fizyka.html",
-                                        "text": "Fizyka/Фізика"
-                                    },
-                                    {
-                                        "class": "dropdown-item",
-                                        "link": "fizyka.html",
-                                        "text": "Fizyka/Фізика"
+                                        "class": "",
+                                        "link": "polecenia.html",
+                                        "text": "Polecenia/Команди"
                                     }
                                 ]
-                            })
-                        </ul>
+                                })
+                            </ul>
+                        </div>
                     </li>
                 </ul>
             </div>

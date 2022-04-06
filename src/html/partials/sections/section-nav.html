@@ -1,18 +1,60 @@
 <div class="container">
   <div class="row">
-    <div class="col-sm">
-      <h2>
-        Lista / Список слів по категоріям
+    <div class="col-12 col-md-6">
+      <h2 class="h4">
+        Słownictwo ogólne/Базова лексика
       </h2>
       <ul>
         @@include("components/list-of-words.html", {
           "list": [
             {
               "class": "",
-              "link": "fizyka.html",
-              "text": "Fizyka/Фізика"
+              "link": "polecenia.html",
+              "text": "Polecenia/Команди"
+            },
+            {
+              "class": "",
+              "link": "narzedzia.html",
+              "text": "Narzędzia/Інструменти"
+            },
+            {
+              "class": "",
+              "link": "pomieszczenia-w-szkole.html",
+              "text": "Pomieszczenia w szkole / Приміщення в школі"
+            },
+            {
+              "class": "",
+              "link": "polozenie-i-kierunki.html",
+              "text": "Położenie i kierunki / Розташування та напрямки"
+            },
+            {
+              "class": "",
+              "link": "inne-zwroty.html",
+              "text": "Inne zwroty / Інші фрази"
             }
           ]
+        })
+      </ul>
+
+    </div>
+    <div class="col-12 col-md-6">
+      <h2 class="h4">
+        Matematyka/Математика
+      </h2>
+      <ul>
+        @@include("components/list-of-words.html", {
+        "list": [
+          {
+            "class": "",
+            "link": "liczby.html",
+            "text": "Liczby/Числа"
+          },
+          {
+            "class": "",
+            "link": "podstawowe-pojecia-matematyka.html",
+            "text": "Podstawowe pojęcia/Основні поняття "
+          }
+        ]
         })
       </ul>
 

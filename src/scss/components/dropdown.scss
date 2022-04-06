@@ -1,0 +1,14 @@
+.dropdown-item {
+  @include media-breakpoint-down(sm) {
+    white-space: inherit;
+  }
+}
+
+.dropdown-menu {
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+  }
+}
