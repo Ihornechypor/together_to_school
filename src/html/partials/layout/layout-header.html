@@ -24,109 +24,160 @@
                             Słówka / Словник
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <p class="mb-0 dropdown-item">
-                                <b>
-                                    Słownictwo ogólne/Базова лексика
-                                </b>
-                            </p>
-                            <ul>
-                                @@include("components/list-of-words-nav.html", {
-                                    "list": [
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/polecenia.html",
-                                            "text": "Polecenia/Команди"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/narzedzia.html",
-                                            "text": "Narzędzia/Інструменти"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/pomieszczenia-w-szkole.html",
-                                            "text": "Pomieszczenia w szkole / шкільні приміщення"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/droga.html",
-                                            "text": "Droga / шлях"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/inne-zwroty.html",
-                                            "text": "Inne zwroty / Інші фрази"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/pracownicy-szkoly.html",
-                                            "text": "Pracownicy szkoły/ працівники школи"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "zwroty-ogolne/wyposazenie-sali.html",
-                                            "text": "Wyposażenie sali/ в кімнаті"
-                                        }
-                                    ]
-                                })
-                            </ul>
-                            <p class="mb-0 mt-2 dropdown-item">
-                                <b>
-                                    Matematyka/Математика
-                                </b>
-                            </p>
-                            <ul>
-                                @@include("components/list-of-words-nav.html", {
-                                "list": [
-                                    {
-                                        "class": "",
-                                        "link": "matematyka/polecenia.html",
-                                        "text": "Polecenia/Команди"
-                                    },
-                                    {
-                                        "class": "",
-                                        "link": "matematyka/podstawowe-pojecia.html",
-                                        "text": "Podstawowe pojęcia / Основні поняття"
-                                    }
-                                ]
-                                })
-                            </ul>
-                            <p class="mb-0 mt-2 dropdown-item">
-                                <b>
-                                    Plastyka/мистецтво
-                                </b>
-                            </p>
-                            <ul>
-                                @@include("components/list-of-words-nav.html", {
-                                    "list": [
-                                        {
-                                            "class": "",
-                                            "link": "plastyka/kolory-i-barwy.html",
-                                            "text": "Kolory i barwy/ кольори"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "plastyka/przybory-i-materialy-plastyczne.html",
-                                            "text": "Przybory i materiały plastyczne / художні матеріали"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "plastyka/malarstwo-rysunek-grafika.html",
-                                            "text": "Malarstwo, rysunek, grafika/ Живопис, малюнок, графіка"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "plastyka/rzezba-i-architektura.html",
-                                            "text": "Rzeźba i architektura / Скульптура, архітектура"
-                                        },
-                                        {
-                                            "class": "",
-                                            "link": "plastyka/sztuka-w-zyciu-codziennym.html",
-                                            "text": "Sztuka w życiu codziennym/ Декоративно-ужиткове мистецтво"
-                                        }
-                                    ]
-                                })
-                            </ul>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <p class="mb-0 dropdown-item">
+                                        <b>
+                                            Słownictwo ogólne/Базова лексика
+                                        </b>
+                                    </p>
+                                    <ul>
+                                        @@include("components/list-of-words-nav.html", {
+                                            "list": [
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/polecenia.html",
+                                                    "text": "Polecenia/Команди"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/narzedzia.html",
+                                                    "text": "Narzędzia/Інструменти"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/pomieszczenia-w-szkole.html",
+                                                    "text": "Pomieszczenia w szkole / шкільні приміщення"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/droga.html",
+                                                    "text": "Droga / шлях"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/inne-zwroty.html",
+                                                    "text": "Inne zwroty / Інші фрази"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/pracownicy-szkoly.html",
+                                                    "text": "Pracownicy szkoły/ працівники школи"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "zwroty-ogolne/wyposazenie-sali.html",
+                                                    "text": "Wyposażenie sali/ в кімнаті"
+                                                }
+                                            ]
+                                        })
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p class="mb-0 dropdown-item">
+                                        <b>
+                                            Matematyka/Математика
+                                        </b>
+                                    </p>
+                                    <ul>
+                                        @@include("components/list-of-words-nav.html", {
+                                        "list": [
+                                            {
+                                                "class": "",
+                                                "link": "matematyka/polecenia.html",
+                                                "text": "Polecenia/Команди"
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "matematyka/podstawowe-pojecia.html",
+                                                "text": "Podstawowe pojęcia / Основні поняття"
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "matematyka/geometria.html",
+                                                "text": "Geometria/Геометрія "
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "matematyka/analiza-funkcji.html",
+                                                "text": "Analiza funkcji / Функціональний аналіз"
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "matematyka/jednostki.html",
+                                                "text": "Jednostki/Oдиниці"
+                                            }
+                                        ]
+                                        })
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p class="mb-0 mt-2 dropdown-item">
+                                        <b>
+                                            Plastyka/мистецтво
+                                        </b>
+                                    </p>
+                                    <ul>
+                                        @@include("components/list-of-words-nav.html", {
+                                            "list": [
+                                                {
+                                                    "class": "",
+                                                    "link": "plastyka/kolory-i-barwy.html",
+                                                    "text": "Kolory i barwy/ кольори"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "plastyka/przybory-i-materialy-plastyczne.html",
+                                                    "text": "Przybory i materiały plastyczne / художні матеріали"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "plastyka/malarstwo-rysunek-grafika.html",
+                                                    "text": "Malarstwo, rysunek, grafika/ Живопис, малюнок, графіка"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "plastyka/rzezba-i-architektura.html",
+                                                    "text": "Rzeźba i architektura / Скульптура, архітектура"
+                                                },
+                                                {
+                                                    "class": "",
+                                                    "link": "plastyka/sztuka-w-zyciu-codziennym.html",
+                                                    "text": "Sztuka w życiu codziennym/ Декоративно-ужиткове мистецтво"
+                                                }
+                                            ]
+                                        })
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p class="mb-0 mt-2 dropdown-item">
+                                        <b>
+                                            Muzyka/музика
+                                        </b>
+                                    </p>
+                                    <ul>
+                                        @@include("components/list-of-words-nav.html", {
+                                        "list": [
+                                            {
+                                                "class": "",
+                                                "link": "muzyka/podstawowe-pojecia.html",
+                                                "text": "Podstawowe pojęcia / Основні поняття"
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "muzyka/instrumenty-muzyczne.html",
+                                                "text": "Instrumenty muzyczne / Mузичні інструменти"
+                                            },
+                                            {
+                                                "class": "",
+                                                "link": "muzyka/wystepy-i-utwory-muzyczne.html",
+                                                "text": "Występy i utwory muzyczne / Виступи i музичні твори"
+                                            }
+                                        ]
+                                        })
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </li>
                 </ul>
