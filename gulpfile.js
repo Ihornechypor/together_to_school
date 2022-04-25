@@ -38,7 +38,7 @@ const gulpAvif = require("gulp-avif");
 const responsive = require("gulp-responsive");
 
 const path = {
-  html: "src/html/*.html",
+  html: ["src/html/**/*.html", "!src/html/partials/**/*.html"],
   scss: "src/scss/*.scss",
   js: "src/js/*.js",
   partials: "src/html/partials/"
