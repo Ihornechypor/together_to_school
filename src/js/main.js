@@ -3,6 +3,7 @@ window.addEventListener("load", () => {
     bPaginate: false,
     bLengthChange: false,
     bFilter: true,
+    ordering: false,
     bInfo: false,
     bAutoWidth: false,
     oLanguage: {
