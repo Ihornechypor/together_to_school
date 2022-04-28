@@ -66,14 +66,6 @@ const scssTask = () => {
         autoprefixer(),
         cssnano({
           discardComments: { removeAll: true }
-        }),
-        purgecss({
-          content: [
-            "src/**/*.html",
-            "src/**/*.js",
-            "node_modules/swiper/**/*.js"
-          ],
-          keyframes: true
         })
       ])
     )
