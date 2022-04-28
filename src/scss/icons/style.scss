@@ -14,6 +14,11 @@
 }
 
 
+.icon-logo_razem {
+  &:before {
+    content: $icon-logo_razem;
+  }
+}
 .icon-facebook {
   &:before {
     content: $icon-facebook;
@@ -24,4 +29,3 @@
     content: $icon-instagram;
   }
 }
-
