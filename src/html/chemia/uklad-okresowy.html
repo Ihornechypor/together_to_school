@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+@@include("layout/layout-head.html", {
+"title" : "Razemwszkole",
+"description": "Strona skierowana jest zarówno do ukraińskich uczniów uczących się polskiego, a także ich nauczycieli, którzy chcą im pomóc. Znajdziesz tu słówka, które przydadzą Ci się podczas nauczania i uczenia się różnych przedmiotów szkolnych. ",
+"css" : "../css/index.css?v=1.0.0"
+})
+<body class="d-flex flex-column h100vh">
+
+@@include("layout/layout-header.html")
+
+<main class="main-content">
+  @@include("sections/section-hero.html", {
+  heroHead: "Chemia/Хімія"
+  })
+  <div class="container table-container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="mb-2 h3">
+          Układ okresowy/Періодична система
+        </h2>
+        <div class="table-responsive">
+          <table class="js-dtTable table table-striped table-bordered table-sm">
+            <thead>
+            @@include("components/table/table-head-4.html", {
+            "tableHeadList": [
+              {
+                "name": "Polski",
+                "uk": "Symbol/символ",
+                "ts": "Українська",
+                "ps": "Транскрипція"
+              }
+            ]
+            })
+            </thead>
+            <tbody>
+            @@include("components/vocabulary/chemia/uklad-okresowy.html")
+            </tbody>
+          </table>
+        </div>
+        <h3 class="mt-5 mb-2">
+          Linki do obrazków układu okresowego/Посилання на зображення періодичної системи
+        </h3>
+        <ul>
+          <li>
+            <a href="https://ptable.com/image/uk%C5%82ad-okresowy.svg" target="_blank" rel="noopener">Układ okresowy PL/Періодична система PL</a>
+          </li>
+          <li>
+            <a href="https://ptable.com/image/%D0%BF%D0%B5%D1%80%D1%96%D0%BE%D0%B4%D0%B8%D1%87%D0%BD%D0%B0-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0.svg?fbclid=IwAR0bU4gFZzg1q6cTb7ES3ABsF4QPi09RsSGsIFBtb0-k6B-JAcXPxQ3YeVU" target="_blank" rel="noopener">Układ okresowy UA/Періодична система UA</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+@@include("layout/layout-footer.html")
+
+
+<script src="../js/main.js?v=1.0.0"></script>
+</body>
+</html>
+
