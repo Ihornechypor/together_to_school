@@ -1,3 +1,6 @@
+
+
+
 .h100vh {
   height: 100vh;
 }
@@ -7,9 +10,13 @@
 }
 
 a {
+  color: #0057b8;
   text-decoration: none;
 
-  &:hover {
+  &:hover, &:focus {
     text-decoration: none;
+    color: lighten(#0057b8, 10);
   }
 }
+
+

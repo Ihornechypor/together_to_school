@@ -1,7 +1,6 @@
 .layout-footer {
 
-
-  @include breakpoint(large){
-    padding-top: 80px;
+  [class^="icon-"], [class*=" icon-"] {
+    font-size: 24px;
   }
 }
