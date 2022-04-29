@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     bInfo: false,
     bAutoWidth: false,
     oLanguage: {
-      sSearch: "Znajdź lowo / Знайди слово"
+      sSearch: "Znajdź słowo / Знайди слово"
     }
   });
 });
