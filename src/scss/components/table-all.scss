@@ -1,0 +1,21 @@
+.table-all-container {
+  .dataTables_filter {
+    label {
+      display: block;
+
+      input {
+        display: block;
+        margin-left: 0;
+        margin-top: 16px;
+        width: 100%;
+        min-height: 42px;
+      }
+    }
+  }
+}
+
+.table-all {
+  &.table-hidden-empty {
+    display: none;
+  }
+}
