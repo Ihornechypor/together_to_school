@@ -94,6 +94,8 @@ const jsTask = () => {
       )
     )
     .pipe(concat("main.js"))
+    .pipe(uglify())
+    .pipe(sourcemaps.write("."))
     .pipe(dest("dist/js"));
 };
 
