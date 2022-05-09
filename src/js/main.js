@@ -1,4 +1,8 @@
+import { cookies } from "./components/cookies";
+
 window.addEventListener("load", () => {
+  cookies.init();
+
   $(".js-dtTable").DataTable({
     bPaginate: false,
     bLengthChange: false,

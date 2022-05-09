@@ -5,11 +5,15 @@
 @import "icons/variables";
 @import "icons/style";
 
+// vars
+@import "common/color-vars";
+
 //base
 @import "common/base";
 
 //layout
 @import "layout/layout-footer";
+@import "layout/layout-cookies";
 
 
 // Components

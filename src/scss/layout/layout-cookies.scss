@@ -1,11 +1,16 @@
 .layout-cookies {
   display: none;
   position: fixed;
+  width: 100%;
   background-color: $color-primary;
   z-index: 9;
-  padding: 30px 20px;
+  padding: 20px;
   left: 0;
   bottom: 0;
+
+  p, span {
+    color: #fff;
+  }
 
   p {
     display: flex;
@@ -16,11 +21,10 @@
     font-size: 12px;
     line-height: 1.667;
 
-    @include breakpoint(large){
+    @include media-breakpoint-up(sm) {
       flex-direction: row;
       align-items: center;
       justify-content: flex-start;
-      padding: 12px 0;
     }
   }
 
@@ -37,21 +41,19 @@
     display: block;
     margin-bottom: 8px;
     font-size: 16px;
-    font-family: 700;
   }
 
   .section-cookies-btn {
-    width: 40px;
-    height: 40px;
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 0;
+    right: 0;
     color: #fff;
-    font-size: 64px;
+    font-size: 28px;
     font-weight: 300;
     transform: rotate(45deg);
     z-index: 1;
-
+    background: none;
+    border: none;
   }
 
   @keyframes cookies-out {
@@ -69,7 +71,7 @@
   &.closed {
     animation: cookies-out .5s cubic-bezier(0.50, 0.50, 0.05, 0.95);
 
-    @include breakpoint(large) {
+    @include media-breakpoint-up(sm) {
       animation: cookies-out-large .5s cubic-bezier(0.50, 0.50, 0.05, 0.95);
     }
   }
