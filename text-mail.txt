@@ -1,0 +1,27 @@
+{%first_name%}
+{%last_name%}
+------------------------------------------------------------
+
+
+** We are waiting for your review now
+------------------------------------------------------------
+You have been with us for quite a long time now, and we hope that you have been enjoying our services. We will be greatful for hearing your opinion
+------------------------------------------------------------
+How can you leave a review?
+Proceed to Trustpilot via this link below and follow simple instruction on the screen
+Leave a review
+https://#
+------------------------------------------------------------
+We appreciate your opinion and are looking forward to hearing it!
+
+https://play.google.com/store/apps/details?id=com.papaya.blackcatcard https://app.blackcatcard.com/Im8Y/5440a578
+
+https://blackcatcard.com/
+
+https://www.facebook.com/blackcatcardofficial https://www.instagram.com/blackcatcardofficial/ https://www.facebook.com/blackcatcardofficial
+
+The bonus payment is a part of the loyalty program and is provided by FINTECH ASSETS OÜ. General terms and conditions can be found here (https://fintechassetsou.com/loyality-program.html) .
+Pricing, terms of use, legal agreements, and detailed product information can be found here (https://get.blackcatcard.com/?utm_source=newsletter&utm_medium=email&utm_campaign=fortune&utm_content=invitation) .
+Blackcatcard issued by Papaya Ltd. Registration number C55146.
+You are receiving this email because you are a participant of the FINTECH ASSETS OÜ loyalty program. If you are no longer interested, you can unsubscribe here (https://blackcatcard.com/cashwheel/unsubscribe/{%uuid%}/?utm_source=newsletter&utm_medium=email&utm_campaign=fortune&utm_content=invitation) .
+After unsubscribing, you will no longer be able to receive information about the referral program and participate in it.
